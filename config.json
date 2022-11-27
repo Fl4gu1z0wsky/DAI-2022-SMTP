@@ -16,6 +16,7 @@
 	"groups" : [
 		{
 			"title" : "group1",
+			"sender" : "sender1@heig-vd.ch",
 			"mails" : [
 				{ "address" : "mail1@heig-vd.ch"},
 				{ "address" : "mail2@heig-vd.ch"},
@@ -24,9 +25,17 @@
 		},
 		{
 			"title" : "group2",
+			"sender" : "sender2@heig-vd.ch",
 			"mails" : [
-				{ "address" : "mail5@heig-vd.ch"},
-				{ "address" : "mail6@heig-vd.ch"}
+				{ "address" : "mail5@heig-vd.ch"}
+			]
+		},
+		{
+			"title" : "group3",
+			"sender" : "sender3@heig-vd.ch",
+			"mails" : [
+				{ "address" : "mail8@heig-vd.ch"},
+				{ "address" : "mail9@heig-vd.ch"}
 			]
 		}
 	]
