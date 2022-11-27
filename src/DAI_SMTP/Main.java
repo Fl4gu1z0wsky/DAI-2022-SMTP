@@ -1,3 +1,7 @@
+/**
+ * Sovilla Flavio & Romano Malo
+ */
+
 package DAI_SMTP;
 
 import org.json.JSONArray;
@@ -68,13 +72,16 @@ public class Main {
 
 
 
-        MailSender mailSender = new MailSender("localhost", 25);
+        MailSender mailSender = new MailSender(Constants.ServerAddress, Constants.ServerPort);
         int i = mailSender.send(sender, receivers, subject, content);
         int j = i+ 1;
 
     }
 
-    // TODO : Ne pas afficher ni compter les groupes de moins de 3 mails
+    /**
+     * Display the list of available groups
+     * @param groups JSONArray containing available groups
+     */
     public static void displayGroups(JSONArray groups){
         System.out.println("List of groups : ");
         for(int i = 0; i < groups.length(); ++i){
@@ -89,6 +96,10 @@ public class Main {
         }
     }
 
+    /**
+     * Display the list of available messages
+     * @param messages JSONArray containing available messages
+     */
     public static void displayMessages(JSONArray messages){
         System.out.println("List of messages : ");
         for(int i = 0; i < messages.length(); ++i){
@@ -99,6 +110,11 @@ public class Main {
         }
     }
 
+    /**
+     * Prompt the user for a numeric choice
+     * @param nb Number of option
+     * @return Selected option's index
+     */
     public static int prompt(int nb){
         Scanner input = new Scanner(System.in);
         int selection = -1;

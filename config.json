@@ -1,8 +1,8 @@
 {
 	"messages" : [
 		{
-			"subject" : "subject1",
-			"content" : "content1"
+			"subject" : "öèäü",
+			"content" : "Déjà"
 		},
 		{
 			"subject" : "subject2",
