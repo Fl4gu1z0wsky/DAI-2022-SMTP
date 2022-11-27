@@ -1,0 +1,33 @@
+{
+	"messages" : [
+		{
+			"subject" : "subject1",
+			"content" : "content1"
+		},
+		{
+			"subject" : "subject2",
+			"content" : "content2"
+		},
+		{
+			"subject" : "subject3",
+			"content" : "content3"
+		}
+	],
+	"groups" : [
+		{
+			"title" : "group1",
+			"mails" : [
+				{ "address" : "mail1@heig-vd.ch"},
+				{ "address" : "mail2@heig-vd.ch"},
+				{ "address" : "mail3@heig-vd.ch"}
+			]
+		},
+		{
+			"title" : "group2",
+			"mails" : [
+				{ "address" : "mail5@heig-vd.ch"},
+				{ "address" : "mail6@heig-vd.ch"}
+			]
+		}
+	]
+}
