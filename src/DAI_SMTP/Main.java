@@ -17,6 +17,7 @@ import java.util.Scanner;
 
 
 public class Main {
+    // TODO : Le path du fichier config doit pas être en dur dans le code, faire autrement
     public static void main(String[] args) {
         String configContent;
         try{
