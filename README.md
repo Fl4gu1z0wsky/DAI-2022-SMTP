@@ -23,7 +23,9 @@ When it has finally run, you can make sure it is running with "$ sudo docker ps"
           
 From now on, you should be able to interact with you MockMock. Make sure you know it's IP to use connect to it.             
 For example, I run IntelliJ on Windows and my MockMock server on an Ubuntu machine. I just need to enter "$ ip a" on my ubuntu to find out my IP.             
-Then, I can connect to it from my Windows machine with "http://IP:80". Make sure you Virtual Machine is running on bridge mode and not NAT. Bridge mode will allow you to have another IP from the scope delivered by the dhcp and interact with it.      
+Then, I can connect to it from my Windows machine with "http://IP:80". Make sure you Virtual Machine is running on bridge mode and not NAT. Bridge mode will allow you to have another IP from the scope delivered by the dhcp and interact with it.  
+
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/mockmock_home.png)
         
 ## Configuring your tool and running a prank campaign
 
