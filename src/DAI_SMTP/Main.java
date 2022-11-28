@@ -74,8 +74,7 @@ public class Main {
 
 
         MailSender mailSender = new MailSender(Constants.ServerAddress, Constants.ServerPort);
-        int i = mailSender.send(sender, receivers, subject, content);
-        int j = i+ 1;
+        mailSender.send(sender, receivers, subject, content);
 
     }
 
