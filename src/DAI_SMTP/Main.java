@@ -17,11 +17,12 @@ import java.util.Scanner;
 
 
 public class Main {
-    // TODO : Le path du fichier config doit pas être en dur dans le code, faire autrement
     public static void main(String[] args) {
         String configContent;
         try{
-            Path configPath = Path.of("C:\\Users\\malor\\Documents\\source\\DAI-2022-SMTP\\config.json");
+            // On reprend le curent path d'où se trouve l'application
+            String currentDir = System.getProperty("user.dir");
+            Path configPath = Path.of(currentDir + "\\config.json");
             configContent = Files.readString(configPath);
         } catch (IOException e) {
             System.out.println("Error while reading the file, please check the URI");
