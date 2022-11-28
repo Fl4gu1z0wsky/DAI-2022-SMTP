@@ -21,6 +21,7 @@ public class Main {
         String configContent;
         try{
             // On reprend le curent path d'où se trouve l'application
+            // https://stackoverflow.com/questions/4871051/how-to-get-the-current-working-directory-in-java
             String currentDir = System.getProperty("user.dir");
             Path configPath = Path.of(currentDir + "\\config.json");
             configContent = Files.readString(configPath);
@@ -93,7 +94,7 @@ public class Main {
             System.out.println("[RECEIVERS] : ");
             JSONArray mails = group.getJSONArray("mails");
             for(int j = 0; j < mails.length(); ++j){
-                System.out.println(" - " + mails.getJSONObject(i).getString("address"));
+                System.out.println(" - " + mails.getJSONObject(j).getString("address"));
             }
         }
     }

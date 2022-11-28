@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0877289f-5651-4846-9373-69fadfbbfa47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAI_SMTP/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAI_SMTP/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAI_SMTP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAI_SMTP/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +86,7 @@
       <workItem from="1669564640773" duration="59000" />
       <workItem from="1669564717146" duration="1511000" />
       <workItem from="1669583780457" duration="5679000" />
-      <workItem from="1669638167669" duration="1124000" />
+      <workItem from="1669638167669" duration="3945000" />
     </task>
     <servers />
   </component>
