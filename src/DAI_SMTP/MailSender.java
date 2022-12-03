@@ -40,6 +40,7 @@ public class MailSender {
             BufferedWriter os = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream(), StandardCharsets.UTF_8));
             BufferedReader is = new BufferedReader(new InputStreamReader(socket.getInputStream(), StandardCharsets.UTF_8));
 
+            System.out.println("Server response : ");
             while (!is.ready()) ;
             while (is.ready()) {
                 System.out.println(is.readLine());
@@ -56,20 +57,22 @@ public class MailSender {
             os.write("Content-Type: text/plain; charset=utf-8\r\n");
             os.write("Subject: " + "=?utf-8?B?" + Base64.getEncoder().encodeToString(subject.getBytes()) + "?=\r\n\r\n");
             os.write(content);
-            os.write("\r\n.\n");
+            os.write("\r\n.\r\n");
+            os.flush();
+            Thread.sleep(2000); // We pause the process in order to be sure that the server has receive the mail request, before sending the quit
             os.write("QUIT\r\n");
             os.flush();
 
-            /*
             String line;
             while ((line = is.readLine()) != null) {
                 System.out.println(line);
-            }*/
-
+            }
 
         } catch (IOException e) {
             System.out.println("ERROR : " + e);
             return 0;
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
         return 1;
     }
