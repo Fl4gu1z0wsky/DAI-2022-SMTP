@@ -1,0 +1,42 @@
+{
+	"messages" : [
+		{
+			"subject" : "Not a scam, Dr. Bakare need your help",
+			"content" : "I am Dr. Bakare Tunde, the cousin of Nigerian Astronaut, Air Force Major Abacha Tunde. He was the first African in space when he made a secret flight to the Salyut 6 space station in 1979. He was on a later Soviet spaceflight, Soyuz T-16Z to the secret Soviet military space station Salyut 8T in 1989. He was stranded there in 1990 when the Soviet Union was dissolved. His other Soviet crew members returned to earth on the Soyuz T-16Z, but his place was taken up by return cargo. There have been occasional Progrez supply flights to keep him going since that time. He is in good humor, but wants to come home."
+		},
+		{
+			"subject" : "Not a scam, URGENT !!",
+			"content" : "This is Brenda J. Gonzalez (LTC) of the U.S Army Special Operations Command (USASOC), 7th Special Forces Group (Airborne), Air Force Base – Afghanistan\n\nPlease I need your urgent assistance in securing a consignment (two trunk boxes) containing ($20,000,000), the funds are surpluses of several contracts executed by my department during a supply of MH (Military Hardware).\n\nThe consignment is presently in Amsterdam Schiphol Airport in the Netherlands, via a U.S Military Air & Surface Transportation Company (ADM Europa LLC). My desire and purpose is to have the (ADM Europa LLC) to deliver the funds to you for safe-keeping until I return back to the U.S mid-next year after my deployment.\n\nIf you receive this message please e-mail me immediately with a delivery address and your full contact information; the deal is 60/40 split (60% for me and 40% for you); I am not a greedy woman and I hope you will not double cross a struggling uniform single mother with 3 teenage children?\n\nOnce you receive the consignment ($20,000,000) take out your 40% ($8,000,000) and save my 60% ($12,000,000) for me until I return back to the U.S mid-next year after my deployment.\n\nMay God bless you as you extend your helping hand to the needy!\n\nPlease REPLY!\n\nRespectfully,\n\nLt. Col. Brenda J. Gonzalez (Mrs.)\n\nU.S. Army 7th Special Forces Group (Airborne)"
+		},
+		{
+			"subject" : "Not a scam, Prince from NIGERIA",
+			"content" : "Dear friend, I really need your help. I am actullay researched because someone want to harm me ! And I can't get access to my money. Can you please send me 2000$ so I can go back to my country ?\n\n Sincerely,\nThe Prince of Nigeria"
+		}
+	],
+	"groups" : [
+		{
+			"title" : "group1",
+			"sender" : "marc@heig-vd.ch",
+			"mails" : [
+				{ "address" : "remy@heig-vd.ch"},
+				{ "address" : "michel@heig-vd.ch"},
+				{ "address" : "david@heig-vd.ch"}
+			]
+		},
+		{
+			"title" : "group2",
+			"sender" : "michel@heig-vd.ch",
+			"mails" : [
+				{ "address" : "david@heig-vd.ch"}
+			]
+		},
+		{
+			"title" : "group3",
+			"sender" : "david@heig-vd.ch",
+			"mails" : [
+				{ "address" : "remy@heig-vd.ch"},
+				{ "address" : "michel@heig-vd.ch"}
+			]
+		}
+	]
+}
