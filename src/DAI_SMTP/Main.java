@@ -32,7 +32,6 @@ public class Main {
 
         JSONArray groups, messages;
 
-        // TODO : Peut-être ajouter des vérifications en + (est ce qu'il y a bien un sender dans un group, est ce qu'il y a un subject et un content dans un message, etc)
         try {
             JSONObject configJSON = new JSONObject(configContent);
 

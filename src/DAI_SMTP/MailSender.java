@@ -24,8 +24,6 @@ public class MailSender {
         this.port = port;
     }
 
-    // TODO : Gérer le retour du serveur qui s'affiche qu'à moitié pour l'instant
-
     /**
      * Send an email
      * @param from Sender mail address

@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0877289f-5651-4846-9373-69fadfbbfa47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/DAI_Labo04_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAI_SMTP/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAI_SMTP/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAI_SMTP/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAI_SMTP/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAI_SMTP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAI_SMTP/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/flagu/Desktop/DAI/DAI-2022-SMTP",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -97,7 +93,7 @@
       <workItem from="1669638167669" duration="3945000" />
       <workItem from="1669898490335" duration="35000" />
       <workItem from="1669906963809" duration="594000" />
-      <workItem from="1670105915418" duration="1439000" />
+      <workItem from="1670105915418" duration="2350000" />
     </task>
     <servers />
   </component>
