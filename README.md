@@ -80,15 +80,24 @@ https://linuxconfig.org/how-to-configure-static-ip-address-on-ubuntu-18-10-cosmi
 ## Description of your implementation
 ![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/classes.png)
 ### Main Class
-It will contain the code that will read the .JSON using the path where the user is.    
-It will then check if there is some errors parsing the .JSON file.     
-It then, display the groups for the user to chose.    
-Then, the messages (pranks) to send.    
-Everything the user enter, is managed with the prompt() method.
-
+#### main()
+It will contain the code that will read the .JSON using the path where the user is. It checks as well if there is some errors parsing it.    
+Then, it displays the groups for the user to chose with the prompt. And the messages (pranks) to send.    
+Finally, the mail is send with the class MailSender.
+#### displayGroups()
+Display the list of available groups for the user to chose with the prompt.
+#### displayMessages()
+Display the list of available messages (pranks) for the user to chose with the prompt.
+#### prompt()
+Prompt the user for a numeric choice in order to chose what groups he want to send the prank and which one the group will receive.
 ### MailSender Class
 This is the class that connect to the server (with a socket) and send the mail with the SMTP protocol we implemented in it.
-
+- host: is the IP of th server
+- port: is the port of the server
+#### mailSender()
+This is the constructor of the class, where we add the port and host.
+#### send()
+This is where we build the SMTP protocl in order to send the mail with the group chosen and the prank.
 ### Constants Class
 It contain the constants that the user can change if needed (not all can be changed).
 - MinimumMailPerGroup: Used to chose a minimum of member per group.
