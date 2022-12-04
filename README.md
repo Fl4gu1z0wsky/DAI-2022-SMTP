@@ -2,14 +2,14 @@
 
 ## About this project
 The prupose of this project is to get familiar with the SMTP (Simple Message Transfer Protocol), JAVA TCP Socket API and docker.
-For that, we are going to implement a MockMock server (SMTP server) with docker. Then we are going to create our own client application in JAVA. It will use TCP to create a socket API in order to communicate with the MockMock server and generate partial SMTP requests.
+For that, we are going to implement a MockMock server (SMTP server) with docker. Then we are going to create our own client application in JAVA. It will use TCP to create a socket API in order to communicate with the MockMock server and generate partial SMTP requests. Those requests will send a "prank" to some people the user has chosen. For that, we will implement a .JSON file with a few emails and a text that the user can modify. Then, he will be able to select what he wants to send in the console line.
 
 ## What is MockMock ?
 MockMock is a cross-platform SMTP server built on Java. It allows you to test if outgoing emails are sent (without actually sending them) and to see what they look like. It provides a web interface that displays which emails were sent and shows you what the contents of those emails are. If you use MockMock you can be sure that your outgoing emails will not reach anyone by accident. Thus, it is a good plateform to test your SMTP code.
 
 You can find the repository here: https://github.com/DominiqueComte/MockMock
 
-## Setting up your mock SMTP server with Docker
+## Setting up your MockMock SMTP server with Docker
 First, there is some problem that you will encounter if you install Docker on a Windows OS. It will interact badly with your VMs. To resolve this problem, you should use a Linux machine (I use Ubuntu 22.04) and install docker on it.         
            
 The command to install it will be:
@@ -78,3 +78,4 @@ https://linuxconfig.org/how-to-configure-static-ip-address-on-ubuntu-18-10-cosmi
 
 
 ## Description of your implementation
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/classes.png)   
