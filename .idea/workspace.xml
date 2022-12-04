@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="DAI-Labo04:jar" />
+      <artifact name="DAI-Labo04:jar2" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0877289f-5651-4846-9373-69fadfbbfa47" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAI_SMTP/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAI_SMTP/Constants.java" afterDir="false" />
-    </list>
+    <list default="true" id="0877289f-5651-4846-9373-69fadfbbfa47" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +92,7 @@
       <workItem from="1669906963809" duration="594000" />
       <workItem from="1670105915418" duration="2350000" />
       <workItem from="1670149082830" duration="6274000" />
-      <workItem from="1670163380096" duration="171000" />
+      <workItem from="1670163380096" duration="849000" />
     </task>
     <servers />
   </component>
