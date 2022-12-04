@@ -78,4 +78,19 @@ https://linuxconfig.org/how-to-configure-static-ip-address-on-ubuntu-18-10-cosmi
 
 
 ## Description of your implementation
-![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/classes.png)   
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/classes.png)
+### Main Class
+It will contain the code that will read the .JSON using the path where the user is.    
+It will then check if there is some errors parsing the .JSON file.     
+It then, display the groups for the user to chose.    
+Then, the messages (pranks) to send.    
+Everything the user enter, is managed with the prompt() method.
+
+### MailSender Class
+This is the class that connect to the server (with a socket) and send the mail with the SMTP protocol we implemented in it.
+
+### Constants Class
+It contain the constants that the user can change if needed (not all can be changed).
+- MinimumMailPerGroup: Used to chose a minimum of member per group.
+- ServerAddress: Is the address of the server and need to be changed in order to connect to it
+- ServerPort: Is the port server and should not be changed.
