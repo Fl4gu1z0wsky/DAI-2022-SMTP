@@ -62,7 +62,7 @@ After running the script, you can make sure your docker container is running wit
 sudo docker ps
 ```
 This command will show you the containers running. Another test is to connect to http://127.0.0.1:80. You should see your MockMock page.          
-![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/mockmock_home.png)          
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/figures/mockmock_home.png)          
 From now on, you should be able to interact with you MockMock. Make sure you know the IP of the server to connect to it.             
 For example, I run IntelliJ on Windows and my MockMock server on an Ubuntu machine. I just need to enter:
 ```sh
@@ -90,7 +90,7 @@ If you need to create a new .jar file, you can follow the instruction here:
 https://stackoverflow.com/questions/1082580/how-to-build-jars-from-intellij-properly
 
 ## Description of your implementation
-![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/classes.png)
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/figures/classes.png)
 ### Main Class
 #### main()
 It will contain the code that will read the .JSON using the path where the user is. It checks as well if there is some errors parsing it.    
@@ -118,8 +118,8 @@ It contain the constants that the user can change if needed (not all can be chan
 
 ### Example
 The user is asked waht to chose:    
-![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt1.png)    
-![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt2.png)    
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/figures/prompt1.png)    
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/figures/prompt2.png)    
 Then the server receive the mail:       
-![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/new_mail.png)
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/figures/new_mail.png)
 
