@@ -75,7 +75,19 @@ If you needs to change your ip and set a static one, you can follow this tutoria
 https://linuxconfig.org/how-to-configure-static-ip-address-on-ubuntu-18-10-cosmic-cuttlefish-linux
 
 ## Configuring your tool and running a prank campaign
-
+First, you will need to install Java to run the .jar files. Go to:     
+https://www.oracle.com/java/technologies/downloads/#jdk19-windows      
+Then chose what you need based on your OS. For example, if you have Windows 10 x64, you must chose the x64 Installer:     
+https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe      
+Then, you will need to follow the previous instructions in order to have a MockMock server running.       
+Once it is done, you must go with a command prompt where your .jar files are ([DAI-Labo04.jar](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/tree/main/DAI-SMTP-Demo)) and finally enter this command to run the executable file:     
+```sh
+java -jar [yourfile].jar
+```
+Note that DAI-Labo04.jar is for a localhost (127.0.0.1) and DAI-Labo04_2.jar is for a server running with the IP 192.168.1.50.    
+     
+If you need to create a new .jar file, you can follow the instruction here:
+https://stackoverflow.com/questions/1082580/how-to-build-jars-from-intellij-properly
 
 ## Description of your implementation
 ![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/classes.png)
@@ -103,3 +115,11 @@ It contain the constants that the user can change if needed (not all can be chan
 - MinimumMailPerGroup: Used to chose a minimum of member per group.
 - ServerAddress: Is the address of the server and need to be changed in order to connect to it
 - ServerPort: Is the port server and should not be changed.
+
+### Example
+The user is asked waht to chose:    
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt1.png)    
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt2.png)    
+Then the server receive the mail:       
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/new_mail.png)
+
