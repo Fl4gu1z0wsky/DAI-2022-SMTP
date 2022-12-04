@@ -106,8 +106,8 @@ It contain the constants that the user can change if needed (not all can be chan
 
 ### Example
 The user is asked waht to chose:    
-![alt text]https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt1.png    
-![alt text]https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt2.png    
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt1.png)    
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/prompt2.png)    
 Then the server receive the mail:       
-![alt text]https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/new_mail.png    
+![alt text](https://github.com/Fl4gu1z0wsky/DAI-2022-SMTP/blob/main/images/new_mail.png)
 
